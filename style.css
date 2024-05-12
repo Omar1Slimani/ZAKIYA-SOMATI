@@ -393,11 +393,11 @@ header * {
   color: #383848;
 }
 
-form {
+.form {
   width: 50%;
 }
 
-form input,
+.form input,
 textarea {
   display: block;
   width: 100%;
@@ -407,12 +407,12 @@ textarea {
   background-color: #e3e2dd;
 }
 
-form input:focus,
+.form input:focus,
 textarea:focus {
   outline: none;
 }
 
-form button {
+.form button {
   color: #fff;
 }
 
@@ -529,7 +529,7 @@ form button {
     }
 
     #contact .contact-info,
-    form {
+    .form {
       width: 80%;
     }
   }
