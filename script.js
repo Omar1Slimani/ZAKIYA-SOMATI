@@ -20,19 +20,19 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
 
     // قائمة بيانات المستخدمين المسجلين مسبقًا
     const users = [
-        { email: "omar@gmail.com", password: "123456" },
-        { email: "omar", password: "123456" },
-        { email: "user", password: "ofppt" },
-        { email: "saht", password: "123456" },
+        { username: "omar@gmail.com", password: "123456" },
+        { username: "omar", password: "123456" },
+        { username: "user", password: "ofppt" },
+        { username: "saht", password: "123456" },
         // يمكنك إضافة المزيد من المستخدمين هنا
     ];
 
-    const email = document.getElementById('email').value;
+    const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('errorMessage');
 
     // التحقق من صحة بيانات المستخدم
-    const user = users.find(user => user.email === email && user.password === password);
+    const user = users.find(user => user.username === username && user.password === password);
 
     if (user) {
         window.location.href = 'cal/index.html';
