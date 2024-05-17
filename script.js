@@ -24,6 +24,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         { username: "omar", password: "123456" },
         { username: "user", password: "ofppt" },
         { username: "saht", password: "123456" },
+        { username: "Admin", password: "Admin" },
         // يمكنك إضافة المزيد من المستخدمين هنا
     ];
 
