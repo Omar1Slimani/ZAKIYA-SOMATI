@@ -21,8 +21,9 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     // قائمة بيانات المستخدمين المسجلين مسبقًا
     const users = [
         { email: "omar@gmail.com", password: "123456" },
-        { email: "friend1@example.com", password: "Password1" },
-        { email: "friend2@example.com", password: "Password2" },
+        { email: "omar", password: "123456" },
+        { email: "user", password: "ofppt" },
+        { email: "saht", password: "123456" },
         // يمكنك إضافة المزيد من المستخدمين هنا
     ];
 
