@@ -1,43 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #061212;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background: #34495e;
 }
 
-.login-container {
-    background-color: #f9f8f6;
-    padding: 55px;
-    box-shadow: 0 0 10px rgba(201, 22, 22, 0.1);
-    border-radius: 70px;
-    text-align: center;
+.box{
+	width:300px;
+	padding:40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 25px;
 }
-
-input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    box-sizing: border-box;
+.box h1{
+	color: white;
+	text-align: uppercase;
+	font-weight: 500;
 }
-
-button {
-    padding: 10px 20px;
-    background-color: #111212;
-    color: #f7f1f1;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+.box input[type = "text"],.box input[type = "password"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
 }
-
-button:hover {
-    background-color: #e97406;
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+	width: 280px;
+	border-color: #2ecc71;
 }
-
-#errorMessage {
-    color: red;
-    font-size: 0.9em;
+.box input[type = "submit"]{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover{
+	background: #2ecc71;
 }

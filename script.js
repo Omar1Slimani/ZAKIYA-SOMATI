@@ -1,20 +1,3 @@
-// document.getElementById('loginForm').addEventListener('submit', function(event) {
-//     event.preventDefault();
-
-//     const registeredEmail = "omar@gmail.com";
-//     const registeredPassword = "123456";
-
-//     const email = document.getElementById('email').value;
-//     const password = document.getElementById('password').value;
-//     const errorMessage = document.getElementById('errorMessage');
-
-//     if (email === registeredEmail && password === registeredPassword) {
-//         window.location.href = 'store.html';
-//     } else {
-//         errorMessage.textContent = "البريد الإلكتروني أو كلمة المرور غير صحيحة.";
-//     }
-// });
-
 document.getElementById('loginForm').addEventListener('submit', function(event) {
     event.preventDefault();
 
